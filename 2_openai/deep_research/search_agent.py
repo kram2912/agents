@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv(override=True)
-MODEL_NAME = os.getenv("DEFAULT_MODEL_NAME", "gpt-5.4-mini")
+MODEL_NAME = os.getenv("DEFAULT_MODEL_NAME", "gpt-5.4-mini") #If no default, picks the gpt model referenced
 
 INSTRUCTIONS = """
 You are a research assistant. Given a search term, you search the web for that term and 
