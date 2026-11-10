@@ -2,13 +2,13 @@
   "files.associations": {
     "*.py": "python"
   },
-  "python.analysis.exclude": [
+  "cursorpyright.analysis.exclude": [
     "**/.venv/**",
     "**/site-packages/**",
     "**/community_contributions/**",
     "**/node_modules/**"
   ],
-  "python.analysis.ignore": [
+  "cursorpyright.analysis.ignore": [
     "**/.venv/**",
     "**/site-packages/**",
     "**/community_contributions/**"
